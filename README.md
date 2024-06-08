@@ -1,5 +1,6 @@
 <h1 align="center"><strong>BAD-FLIPP3R-CHROME-SPYs</strong></h1>
 
+
 <html>
   <body>
     <div align="center">
@@ -10,10 +11,12 @@
 
 <div align="center">
 
-[![DDXW](https://img.shields.io/badge/RubberDucky-Coding%20-yellow?style=flat-square&logo=rubber&logoColor=orange)](https://github.com/Bulli77)
 
+
+[![DDXW](https://img.shields.io/badge/RubberDucky-Coding%20-yellow?style=flat-square&logo=rubber&logoColor=orange)](https://github.com/Bulli77)
 [![DDXNJ](https://img.shields.io/badge/Ninja-Programmer-HVIT)](https://www.ddx-solutuions.com/)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Bulli77/BAD-FLIPP3R-CHROME-SPY?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Bulli77/BAD-FLIPP3R-CHROME-SPY?style=plastic)
+
 
 </div>
 
