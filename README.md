@@ -3,7 +3,7 @@
 <html>
   <body>
     <div align="center">
-      <img src="https://imgur.com/jhru5s5" width="369" height="249">
+      <img src="https://i.imgur.com/jhru5s5.jpeg" width="369" height="249">
     </div>
   </body>
 </html>
