@@ -9,9 +9,10 @@
 </html>
 
 
-<p id="description"><strong>BreadcrumbsBAD-FLIPP3R-CHROME-SPY Collection</strong> is an advanced payload designed for use with the Flipper Zero device. 
-  *   This project is intended exclusively for educational purposes and to deepen understanding of advanced USB-based attacks. 
-  *   The primary goal of <strong>BreadcrumbsBAD-FLIPP3R-CHROME-SPY</strong> is to provide cybersecurity professionals, researchers, and enthusiasts with a tool to study, practice, and enhance their knowledge of various types of USB-based exploits.</p>
+<p id="description"><strong>BreadcrumbsBAD-FLIPP3R-CHROME-SPY Collection</strong> is an advanced payload designed for use with the Flipper Zero device. </p>
+<p id="description">This project is intended exclusively for educational purposes and to deepen understanding of advanced USB-based attacks. </p>
+<p id="description">The primary goal of <strong>BreadcrumbsBAD-FLIPP3R-CHROME-SPY</strong> is to provide cybersecurity professionals, researchers, and enthusiasts with a tool to study, practice, and enhance their knowledge of various types of USB-based exploits.</p>
+
 
 ...................................  
 <h2>🧐 Features</h2>
