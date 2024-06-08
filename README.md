@@ -13,13 +13,19 @@
 [![DDXW](https://img.shields.io/badge/RubberDucky-Coding%20-yellow?style=flat-square&logo=rubber&logoColor=orange)](https://github.com/Bulli77)
 
 [![DDXNJ](https://img.shields.io/badge/Ninja-Programmer-HVIT)](https://www.ddx-solutuions.com/)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Bulli77/BAD-FLIPP3R-CHROME-SPY?style=for-the-badge)
 
 </div>
 
 
-<p id="description"><strong>BreadcrumbsBAD-FLIPP3R-CHROME-SPY Collection</strong> is an advanced payload designed for use with the Flipper Zero device. </p>
-<p id="description">This project is intended exclusively for educational purposes and to deepen understanding of advanced USB-based attacks. </p>
+<h2>Description</h2>
+
+<p id="description"><strong>BreadcrumbsBAD-FLIPP3R-CHROME-SPY Collection</strong> is an advanced payload collection designed for use with the Flipper Zero device. This collection includes payloads for Rubber Ducky and Python.</p>
+
+<p id="description">This project is intended exclusively for educational purposes and to deepen understanding of advanced USB-based attacks.</p>
+
 <p id="description">The primary goal of <strong>BreadcrumbsBAD-FLIPP3R-CHROME-SPY</strong> is to provide cybersecurity professionals, researchers, and enthusiasts with a tool to study, practice, and enhance their knowledge of various types of USB-based exploits.</p>
+
 
 
 ...................................  
@@ -54,7 +60,7 @@ Contributions are welcome! If you have any payloads improvements or ideas to enh
 <h2>💻 Customize </h2>
 
 Choose: 
-1. **Launching Google Chrome:**
+1. **DROPBOX OPTION AND SD:**
    - DEFINE FILE_PATH "/sdcard/cookies.txt"
    - DEFINE DROPBOX_ACCESS_TOKEN "example"
    
