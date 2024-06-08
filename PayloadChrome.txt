@@ -1,6 +1,6 @@
 REM ####################################################
 REM #                                                  |
-REM # Title        : BAD-FLIPP3R-CHROME-SPY     |
+REM # Title        : BAD-FLIPP3R-CHROME-SPY            |
 REM # Author       : BULLI77                           |
 REM # Version      : 1.0                               |
 REM # Category     : Exfiltration                      |
